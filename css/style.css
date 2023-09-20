@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 970px;
+    margin: 0 auto;
+}
+
+
+.nav{
+    background-color: #CCCCCC;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.nav, .container{
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.searchbar{
+    width: 290px;
+}
+
+.btn{
+    padding: 2px;
+    box-sizing: border-box;
+    box-shadow: 2px 6px 2px 0.3px black;
+}
+.btnBlue{
+    background-color: #2B78E4;
+    color: white;
+}
+.container{
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.ninjacontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-bottom: 4px;
+}
+
+.cuadro{
+    outline: 3px solid black;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.legend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.btnCuadro{
+    padding: 4px 8px;
+    margin-top: 6px;;
+}
+.btnYellow{
+    background-color: #FFD966;
+    font-weight: bolder;
+    box-shadow: 2px 6px 2px 0.3px black;
+}
+
+.rightContainer{
+    outline: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin-left: auto;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btnDefinition{
+    padding: 5px 8px;
+    box-shadow: 2px 6px 2px 0.3px black;
+}
+
+
+.btnGreen{
+    background-color: #93C47D;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cuadroHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
